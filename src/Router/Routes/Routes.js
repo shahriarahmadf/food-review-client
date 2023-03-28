@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import About from "../../Pages/About/About";
 import Blogs from "../../Pages/Blogs/Blogs";
-import Home from "../../Pages/Home/Home";
+import Home from "../../Pages/Home/Home/Home";
 import Join from "../../Pages/Join/Join";
 import Login from "../../Pages/Login/Login";
 import Register from "../../Pages/Register/Register";
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>,
+                element: <Home></Home>
             },
             {
                 path: '/login',
